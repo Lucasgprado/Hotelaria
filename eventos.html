@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hotelaria</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/hotel.css" />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Gaura Mandir Hotel</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Acomodação
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="suitestandard.html"
+                >Suite Standard</a
+              >
+              <a class="dropdown-item" href="suitedouble.html">Suite Double</a>
+              <a class="dropdown-item" href="suitemaster.html">Suite Master</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="lazer.html">Lazer</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="gastronomia.html">Gastronomia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="eventos.html">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reservas.html">Reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="localizacao.html">Localização</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <h1>Gaura Mandir Hotel</h1>
+      <img src="img/logo.png" alt="Gaura Mandir Hotel" />
+    </header>
+
+    <main>
+      <div class="container-fluid">
+        <br>
+        <h2>Confira nossas áreas de eventos</h2>
+        <p>&nbsp;</p>
+        <div id="imgEventos">
+          <img
+            src="img/eventos2.jpg"
+            alt="Área de Eventos 1"
+            data-toggle="modal"
+            data-target=".bd-example-modal-xl"
+          />
+
+          <img
+            src="img/eventos3.jpg"
+            alt="Área de Eventos 2"
+            data-toggle="modal"
+            data-target=".bd-example-modal-xl2"
+          />
+
+          <img
+            src="img/eventos4.jpg"
+            alt="Área de Eventos 3"
+            data-toggle="modal"
+            data-target=".bd-example-modal-xl3"
+          />
+
+          <br />
+        </div>
+
+        <div
+          class="modal fade bd-example-modal-xl"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myExtraLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+              <img src="img/eventos2.jpg" alt="Área de Eventos 1" />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="modal fade bd-example-modal-xl2"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myExtraLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+              <img src="img/eventos3.jpg" alt="Área de Eventos 2" />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="modal fade bd-example-modal-xl3"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myExtraLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+              <img src="img/eventos4.jpg" alt="Área de Eventos 3" />
+            </div>
+          </div>
+        </div>
+        <br>
+    </main>
+
+    <footer>
+      <div class="card">
+        <div class="card-header">Contato</div>
+        <div class="card-body">
+          <h5 class="card-title">
+            Endereço:<br />Estrada da Prata dos Aredes, 196 - Canoas,
+            Teresópolis - RJ
+          </h5>
+          <p class="card-text">
+            Tel: +55 (21) 2644-6191 | +55 11 (21) 95568-9857 <br />
+            <a href="mailto:contato@gauramandir.com"
+              >contato@gauramandir.com</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
